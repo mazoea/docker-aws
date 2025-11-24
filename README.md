@@ -9,6 +9,6 @@ See https://github.com/mikesir87/aws-cli-docker.
 
 For instance:
 ```
-docker run --rm -e AWS_ACCESS_KEY_ID=my-key-id -e AWS_SECRET_ACCESS_KEY=my-secret-access-key -v %cd%:/aws registry.gitlab.com/mazoea-team/docker-aws aws lambda update-function-code ...
+docker run --rm -e AWS_ACCESS_KEY_ID=my-key-id -e AWS_SECRET_ACCESS_KEY=my-secret-access-key -v %cd%:/aws ghcr.io/mazoea/docker-aws:latest aws lambda update-function-code ...
 ```
 
